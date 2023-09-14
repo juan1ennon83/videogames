@@ -1,0 +1,74 @@
+/* flex-direction: column; */
+
+.landingPageContainer{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(https://media.wired.com/photos/633c95ef85e7a4cc2f802256/master/w_1920,c_limit/Breath-of-the-Wild-Casual-Gamer-Culture.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: fadeIn 2s ease;
+}  
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(20px);
+  };
+  10% {
+    opacity: 1;
+    filter: brightness(3) blur(10px) ;
+  }
+}
+
+.landingPageText{
+  position: absolute;
+  top: 52%;
+  left: 72%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 3px 3px 6px rgba(235, 70, 70, 0.5); /* Ajusta los valores según tus preferencias */;
+  font-size: 48px;
+  font-weight: 700;
+
+}
+.landingPageText p{
+  margin: 6px 0;
+}
+
+.landingPageButton{
+  width: fit-content;
+  position: absolute;
+  top: 74%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.landingPageButton a{
+  color: #4895cc;
+  text-decoration: none;
+}
+.landingPageButton:hover a{
+  color: #111f29;
+  text-decoration: none;
+}
+
+/* .backgroundImage{
+  position: relative;
+  z-index: 0;
+}
+
+.backgroundImage img{
+  background-size: cover;
+  width: 100%;
+  height: auto; 
+}*/
+
+
