@@ -41,7 +41,6 @@ const postDataVideoGames = async (
     }]
   })
   
-  //console.log('*******',gameRelation, '******');
   return gameRelation;
 };
 
