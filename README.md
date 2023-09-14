@@ -19,5 +19,5 @@ Main features:
 My name is Juan Salva, aka 1ennon; I am a passionate person interested in automation, AI, cybersecurity and all things related to technology. About to become a Full Stack Engineer, my former studies in Electrical Engineering and languages provide me with a multi-cultural approach.
 Open to collabs and creating cool apps. Just reach out!
 - **[email](mailto:juanmasalros@gmail.com)**
-- **[GitHub Profile](https://github.com/juan1ennon)**
+- **[GitHub Profile](https://github.com/juan1ennon83)**
 - **[Videogames App Deploy] // (To be added)**
